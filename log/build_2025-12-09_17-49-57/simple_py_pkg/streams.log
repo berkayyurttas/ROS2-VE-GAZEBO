@@ -1,0 +1,23 @@
+[0.448s] Invoking command in '/home/berkay/ros2_ws/build/simple_py_pkg': PYTHONPATH=/home/berkay/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berkay/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/berkay/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data
+[0.650s] running develop
+[0.764s] running egg_info
+[0.764s] creating simple_py_pkg.egg-info
+[0.765s] writing simple_py_pkg.egg-info/PKG-INFO
+[0.765s] writing dependency_links to simple_py_pkg.egg-info/dependency_links.txt
+[0.765s] writing entry points to simple_py_pkg.egg-info/entry_points.txt
+[0.765s] writing requirements to simple_py_pkg.egg-info/requires.txt
+[0.765s] writing top-level names to simple_py_pkg.egg-info/top_level.txt
+[0.765s] writing manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.767s] reading manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.767s] writing manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.768s] running build_ext
+[0.768s] Creating /home/berkay/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages/simple-py-pkg.egg-link (link to .)
+[0.769s] 
+[0.769s] Installed /home/berkay/ros2_ws/build/simple_py_pkg
+[0.769s] running symlink_data
+[0.769s] creating /home/berkay/ros2_ws/install/simple_py_pkg/share/ament_index
+[0.769s] creating /home/berkay/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index
+[0.769s] creating /home/berkay/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index/packages
+[0.769s] symbolically linking /home/berkay/ros2_ws/build/simple_py_pkg/resource/simple_py_pkg -> /home/berkay/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index/packages
+[0.770s] symbolically linking /home/berkay/ros2_ws/build/simple_py_pkg/package.xml -> /home/berkay/ros2_ws/install/simple_py_pkg/share/simple_py_pkg
+[0.791s] Invoked command in '/home/berkay/ros2_ws/build/simple_py_pkg' returned '0': PYTHONPATH=/home/berkay/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/berkay/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/berkay/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data

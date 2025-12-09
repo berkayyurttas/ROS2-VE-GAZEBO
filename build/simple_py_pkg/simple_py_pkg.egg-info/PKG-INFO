@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simple-py-pkg
+Version: 0.0.0
+Summary: Basit bir ROS 2 Python publisher örneği
+Home-page: UNKNOWN
+Maintainer: berkay
+Maintainer-email: berkay@todo.todo
+License: Apache License 2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+
