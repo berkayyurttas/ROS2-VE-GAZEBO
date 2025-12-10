@@ -1,3 +1,5 @@
 [console_scripts]
+counter_node = simple_py_pkg.template_node:main
+py_node = simple_py_pkg.simple_py_node:main
 talker = simple_py_pkg.talker:main
 

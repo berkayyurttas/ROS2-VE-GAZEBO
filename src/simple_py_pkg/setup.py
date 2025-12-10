@@ -24,8 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'py_node = simple_py_pkg.simple_py_node:main',
+            'counter_node = simple_py_pkg.template_node:main',  # 👈 Eğer dosyan template_node.py ise
             'talker = simple_py_pkg.talker:main',
         ],
     },
 )
-
