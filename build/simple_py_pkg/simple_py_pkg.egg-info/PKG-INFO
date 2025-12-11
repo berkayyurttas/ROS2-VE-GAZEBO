@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: simple-py-pkg
 Version: 0.0.0
-Summary: Basit bir ROS 2 Python publisher örneği
+Summary: Basit bir ROS 2 Python publisher ve subscriber örnekleri paketi
 Home-page: UNKNOWN
 Maintainer: berkay
 Maintainer-email: berkay@todo.todo

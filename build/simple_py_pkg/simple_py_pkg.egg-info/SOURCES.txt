@@ -11,8 +11,11 @@ setup.py
 resource/simple_py_pkg
 simple_py_pkg/__init__.py
 simple_py_pkg/counter_node.py
+simple_py_pkg/publisher_node.py
+simple_py_pkg/remote_controller.py
 simple_py_pkg/simple_py_node.py
 simple_py_pkg/talker.py
+simple_py_pkg/television.py
 simple_py_pkg/template_node.py
 simple_py_pkg.egg-info/PKG-INFO
 simple_py_pkg.egg-info/SOURCES.txt

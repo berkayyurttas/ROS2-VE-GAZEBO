@@ -1,1 +1,1 @@
-rclpy:std_msgs
+example_interfaces:rclpy:std_msgs

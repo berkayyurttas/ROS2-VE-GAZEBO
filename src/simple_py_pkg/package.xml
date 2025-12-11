@@ -11,6 +11,8 @@
   <!-- 🔹 Gerekli bağımlılıklar -->
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>example_interfaces</depend>
+  
 
   <!-- 🔹 Test bağımlılıkları (isteğe bağlı) -->
   <test_depend>ament_copyright</test_depend>

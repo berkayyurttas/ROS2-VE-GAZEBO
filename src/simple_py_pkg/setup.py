@@ -15,18 +15,19 @@ setup(
     zip_safe=True,
     maintainer='berkay',
     maintainer_email='berkay@todo.todo',
-    description='Basit bir ROS 2 Python publisher örneği',
+    description='Basit bir ROS 2 Python publisher ve subscriber örnekleri paketi',
     license='Apache License 2.0',
     extras_require={
-        'test': [
-            'pytest',
-        ],
+        'test': ['pytest'],
     },
     entry_points={
         'console_scripts': [
             'py_node = simple_py_pkg.simple_py_node:main',
-            'counter_node = simple_py_pkg.template_node:main',  # 👈 Eğer dosyan template_node.py ise
+            'counter_node = simple_py_pkg.template_node:main',
+            'channel_node = simple_py_pkg.television:main',
             'talker = simple_py_pkg.talker:main',
+            'publisher_node = simple_py_pkg.publisher_node:main',  # ✅ yeni eklendi
+            'remote_controller_node = simple_py_pkg.remote_controller:main'
         ],
     },
 )
